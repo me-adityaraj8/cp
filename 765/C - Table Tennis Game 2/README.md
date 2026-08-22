@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/765/problem/C" target="_blank" rel="noopener noreferrer">765C — Table Tennis Game 2</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1200 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 765C](https://codeforces.com/contest/765/problem/C) |
+
+## Topics
+`math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">C. Table Tennis Game 2</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>512 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Misha and Vanya have played several table tennis sets. Each set consists of several serves, each serve is won by one of the players, he receives one point and the loser receives nothing. Once one of the players scores exactly <span class="tex-span"><i>k</i></span> points, the score is reset and a new set begins.</p><p>Across all the sets Misha scored <span class="tex-span"><i>a</i></span> points in total, and Vanya scored <span class="tex-span"><i>b</i></span> points. Given this information, determine the maximum number of sets they could have played, or that the situation is impossible.</p><p>Note that the game consisted of several complete sets.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains three space-separated integers <span class="tex-span"><i>k</i></span>, <span class="tex-span"><i>a</i></span> and <span class="tex-span"><i>b</i></span> (<span class="tex-span">1 ≤ <i>k</i> ≤ 10<sup class="upper-index">9</sup></span>, <span class="tex-span">0 ≤ <i>a</i>, <i>b</i> ≤ 10<sup class="upper-index">9</sup></span>, <span class="tex-span"><i>a</i> + <i>b</i> > 0</span>).</p></div><div class="output-specification"><div class="section-title">Output</div><p>If the situation is impossible, print a single number -1. Otherwise, print the maximum possible number of sets.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0048404267414695457" id="id007153683522121222" class="input-output-copier">Copy</div></div><pre id="id0048404267414695457">11 11 5<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00480744845614984" id="id009497667837577126" class="input-output-copier">Copy</div></div><pre id="id00480744845614984">1<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005272215047501422" id="id003295167923177844" class="input-output-copier">Copy</div></div><pre id="id005272215047501422">11 2 3<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id004612825672535509" id="id00913980810476187" class="input-output-copier">Copy</div></div><pre id="id004612825672535509">-1<br></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>Note that the rules of the game in this problem differ from the real table tennis game, for example, the rule of "balance" (the winning player has to be at least two points ahead to win a set) has no power within the present problem.</p></div>
