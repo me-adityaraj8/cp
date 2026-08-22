@@ -1,0 +1,24 @@
+<h2><a href="https://codeforces.com/contest/2084/problem/B" target="_blank" rel="noopener noreferrer">2084B — MIN = GCD</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1100 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2084B](https://codeforces.com/contest/2084/problem/B) |
+
+## Topics
+`greedy` `math` `number theory`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. MIN = GCD</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p> </p><p>You are given a positive integer sequence $$$a$$$ of length $$$n$$$. Determine if it is possible to rearrange $$$a$$$ such that there exists an integer $$$i$$$ ($$$1 \le i \lt n$$$) satisfying $$$$$$ \min([a_1,a_2,\ldots,a_i])=\gcd([a_{i+1},a_{i+2},\ldots,a_n]). $$$$$$</p><p>Here $$$\gcd(c)$$$ denotes the <a href="https://en.wikipedia.org/wiki/Greatest_common_divisor">greatest common divisor</a> of $$$c$$$, which is the maximum positive integer that divides all integers in $$$c$$$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 10^4$$$). The description of the test cases follows. </p><p>The first line of each test case contains a single integer $$$n$$$ ($$$2 \le n \le 10^5$$$).</p><p>The second line contains $$$n$$$ integers $$$a_1, a_2, \ldots, a_n$$$ ($$$1 \le a_i \le 10^{18}$$$).</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases does not exceed $$$10^5$$$. </p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output "<span class="tex-font-style-tt">Yes</span>" if it is possible, and "<span class="tex-font-style-tt">No</span>" otherwise.</p><p>You can output the answer in any case (upper or lower). For example, the strings "<span class="tex-font-style-tt">yEs</span>", "<span class="tex-font-style-tt">yes</span>", "<span class="tex-font-style-tt">Yes</span>", and "<span class="tex-font-style-tt">YES</span>" will be recognized as positive responses.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009610175527248046" id="id004576332134778138" class="input-output-copier">Copy</div></div><pre id="id009610175527248046"><div class="test-example-line test-example-line-even test-example-line-0">7</div><div class="test-example-line test-example-line-odd test-example-line-1">2</div><div class="test-example-line test-example-line-odd test-example-line-1">1 1</div><div class="test-example-line test-example-line-even test-example-line-2">2</div><div class="test-example-line test-example-line-even test-example-line-2">1 2</div><div class="test-example-line test-example-line-odd test-example-line-3">3</div><div class="test-example-line test-example-line-odd test-example-line-3">2 2 3</div><div class="test-example-line test-example-line-even test-example-line-4">3</div><div class="test-example-line test-example-line-even test-example-line-4">2 3 4</div><div class="test-example-line test-example-line-odd test-example-line-5">5</div><div class="test-example-line test-example-line-odd test-example-line-5">4 5 6 9 3</div><div class="test-example-line test-example-line-even test-example-line-6">3</div><div class="test-example-line test-example-line-even test-example-line-6">998244359987710471 99824435698771045 1000000007</div><div class="test-example-line test-example-line-odd test-example-line-7">6</div><div class="test-example-line test-example-line-odd test-example-line-7">1 1 4 5 1 4</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00019608282192112858" id="id009735009928898772" class="input-output-copier">Copy</div></div><pre id="id00019608282192112858">Yes
+No
+Yes
+No
+Yes
+Yes
+Yes
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, rearrange $$$a$$$ to $$$[1,1]$$$ and let $$$i=1$$$, then $$$\min([1])=\gcd([1])$$$.</p><p>In the second test case, it can be shown that it is impossible.</p><p>In the third test case, rearrange $$$a$$$ to $$$[3,2,2]$$$ and let $$$i=2$$$, then $$$\min([3,2])=\gcd([2])$$$.</p><p>In the fifth test case, rearrange $$$a$$$ to $$$[3,4,5,6,9]$$$ and let $$$i=3$$$, then $$$\min([3,4,5])=\gcd([6,9])$$$.</p></div>
