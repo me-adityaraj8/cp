@@ -1,0 +1,21 @@
+<h2><a href="https://codeforces.com/contest/2125/problem/B" target="_blank" rel="noopener noreferrer">2125B — Left and Down</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 900 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2125B](https://codeforces.com/contest/2125/problem/B) |
+
+## Topics
+`math` `number theory`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Left and Down</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>512 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>There is a robot located in the cell $$$(a,b)$$$ of an infinite grid. Misha wants to move it to the cell $$$(0,0)$$$. To do this, he has fixed some integer $$$k$$$.</p><p>Misha can perform the following operation: choose two integers $$$dx$$$ and $$$dy$$$ (both from $$$0$$$ to $$$k$$$ inclusive) and move the robot $$$dx$$$ cells to the left (in the direction of decreasing $$$x$$$ coordinate) and $$$dy$$$ cells down (in the direction of decreasing $$$y$$$ coordinate). In other words, move the robot from $$$(x,y)$$$ to $$$(x - dx, y - dy)$$$.</p><p>The cost of the operation is: </p><ul> <li> $$$1$$$, if the chosen pair $$$(dx,dy)$$$ is used for the first time; </li><li> $$$0$$$, if the pair $$$(dx,dy)$$$ has been chosen before. </li></ul><p>Note that if $$$dx \ne dy$$$, the pairs $$$(dx, dy)$$$ and $$$(dy, dx)$$$ are considered different.</p><p>Help Misha bring the robot to the cell $$$(0,0)$$$ with minimum total cost. Note that you don't have to minimize the number of operations.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer $$$t$$$ ($$$1 \le t \le 10^4$$$) — the number of test cases.</p><p>The only line of each test case contains three integers $$$a, b$$$, and $$$k$$$ ($$$1 \le a, b, k \le 10^{18}$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output a single integer — the minimum total cost of operations required to move the robot to the cell $$$(0,0)$$$.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0006948380211143601" id="id005372296481346015" class="input-output-copier">Copy</div></div><pre id="id0006948380211143601"><div class="test-example-line test-example-line-even test-example-line-0">4</div><div class="test-example-line test-example-line-odd test-example-line-1">3 5 15</div><div class="test-example-line test-example-line-even test-example-line-2">2 3 1</div><div class="test-example-line test-example-line-odd test-example-line-3">12 18 8</div><div class="test-example-line test-example-line-even test-example-line-4">9 7 5</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0008825932100543088" id="id005064948089969865" class="input-output-copier">Copy</div></div><pre id="id0008825932100543088">1
+2
+1
+2
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, the operation $$$(3,5)$$$ can be applied once. The robot will immediately go to $$$(0,0)$$$, and the cost of the operation will be $$$1$$$.</p><p>In the second test case, the operations: $$$(1,1)$$$, $$$(0,1)$$$, and $$$(1,1)$$$ can be applied. After the first operation, the robot will be at cell $$$(1,2)$$$, after the second one — at $$$(1,1)$$$, and after the third one — at $$$(0,0)$$$. The cost of the first and second operations is $$$1$$$, while the third is $$$0$$$, as the pair $$$(1,1)$$$ has already been used in the first operation.</p><p>In the third test case, the pair $$$(4,6)$$$ can be chosen three times in a row.</p><p>In the fourth test case, the operations: $$$(4,2)$$$ and $$$(5,5)$$$ can be applied.</p></div>
