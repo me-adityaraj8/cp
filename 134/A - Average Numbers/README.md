@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/134/problem/A" target="_blank" rel="noopener noreferrer">134A — Average Numbers</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1200 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 134A](https://codeforces.com/contest/134/problem/A) |
+
+## Topics
+`brute force` `implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Average Numbers</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>You are given a sequence of positive integers <span class="tex-span"><i>a</i><sub class="lower-index">1</sub>, <i>a</i><sub class="lower-index">2</sub>, ..., <i>a</i><sub class="lower-index"><i>n</i></sub></span>. Find all such indices <span class="tex-span"><i>i</i></span>, that the <span class="tex-span"><i>i</i></span>-th element equals the arithmetic mean of all <span class="tex-font-style-it">other</span> elements (that is all elements except for this one).</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains the integer <span class="tex-span"><i>n</i></span> (<span class="tex-span">2 ≤ <i>n</i> ≤ 2·10<sup class="upper-index">5</sup></span>). The second line contains elements of the sequence <span class="tex-span"><i>a</i><sub class="lower-index">1</sub>, <i>a</i><sub class="lower-index">2</sub>, ..., <i>a</i><sub class="lower-index"><i>n</i></sub></span> (<span class="tex-span">1 ≤ <i>a</i><sub class="lower-index"><i>i</i></sub> ≤ 1000</span>). All the elements are positive integers.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print on the first line the number of the sought indices. Print on the second line the sought indices in the increasing order. All indices are integers from <span class="tex-span">1</span> to <span class="tex-span"><i>n</i></span>.</p><p>If the sought elements do not exist, then the first output line should contain number <span class="tex-span">0</span>. In this case you may either not print the second line or print an empty line.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id006195758654525407" id="id002957519680169699" class="input-output-copier">Copy</div></div><pre id="id006195758654525407">5<br>1 2 3 4 5<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id004916263938531904" id="id008720520449122857" class="input-output-copier">Copy</div></div><pre id="id004916263938531904">1<br>3 </pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005143429194963715" id="id008391922337509501" class="input-output-copier">Copy</div></div><pre id="id005143429194963715">4<br>50 50 50 50<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0045404862321878425" id="id0003480924753622161" class="input-output-copier">Copy</div></div><pre id="id0045404862321878425">4<br>1 2 3 4 </pre></div></div></div>
