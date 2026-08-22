@@ -1,0 +1,31 @@
+<h2><a href="https://codeforces.com/contest/2132/problem/E" target="_blank" rel="noopener noreferrer">2132E — Arithmetics Competition</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1700 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2132E](https://codeforces.com/contest/2132/problem/E) |
+
+## Topics
+`binary search` `data structures` `greedy` `sortings` `ternary search`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">E. Arithmetics Competition</div><div class="time-limit"><div class="property-title">time limit per test</div>3 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>In the arithmetic competition, participants need to achieve the highest possible sum from the cards they have. In the team <span class="tex-font-style-it">"fst_ezik"</span>, Vadim has $$$n$$$ cards with numbers $$$a_i$$$, and Kostya has $$$m$$$ cards with numbers $$$b_i$$$. In each of the $$$q$$$ rounds, they want to win, but this time the rules of the competition are slightly different from the usual ones.</p><p>In each round, the participants are given three numbers $$$x_i$$$, $$$y_i$$$, and $$$z_i$$$. The team <span class="tex-font-style-it">"fst_ezik"</span> must choose exactly $$$z_i$$$ cards from all the cards they have, but Vadim can choose no more than $$$x_i$$$ cards from his set, and Kostya can choose no more than $$$y_i$$$ cards from his set. Help them find the highest possible sum for each of the $$$q$$$ rounds.</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test consists of several test cases. The first line contains a single integer $$$t$$$ $$$(1 \le t \le 10^4)$$$ — the number of test cases. The descriptions of the test cases follow.</p><p>In the first line of each test case, three integers $$$n$$$, $$$m$$$, $$$q$$$ are given $$$(1 \le n, m \le 2 \cdot 10^5, 1 \le q \le 10^5)$$$ — the number of cards Vadim has, the number of cards Kostya has, and the number of rounds in the competition.</p><p>The second line contains $$$n$$$ integers $$$a_i$$$ — the numbers on Vadim's cards $$$(1 \le a_i \le 10^9)$$$.</p><p>The third line contains $$$m$$$ integers $$$b_i$$$ — the numbers on Kostya's cards $$$(1 \le b_i \le 10^9)$$$.</p><p>The following $$$q$$$ lines describe the rounds with three integers $$$x_i$$$, $$$y_i$$$, $$$z_i$$$ $$$(0 \le x_i \le n, 0 \le y_i \le m, 0 \le z_i \le x_i + y_i)$$$ — the limit on the number of cards Vadim can choose, the limit on the number of cards Kostya can choose, and the number of cards they need to select together.</p><p>It is guaranteed that the sum of $$$n$$$ across all test cases does not exceed $$$2 \cdot 10^5$$$, the sum of $$$m$$$ across all test cases does not exceed $$$2 \cdot 10^5$$$, and the sum of $$$q$$$ across all test cases does not exceed $$$10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output $$$q$$$ numbers — the highest possible sum for the corresponding round.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0066224059461891" id="id005294666292870646" class="input-output-copier">Copy</div></div><pre id="id0066224059461891"><div class="test-example-line test-example-line-even test-example-line-0">4</div><div class="test-example-line test-example-line-odd test-example-line-1">3 4 5</div><div class="test-example-line test-example-line-odd test-example-line-1">10 20 30</div><div class="test-example-line test-example-line-odd test-example-line-1">1 2 3 4</div><div class="test-example-line test-example-line-odd test-example-line-1">0 0 0</div><div class="test-example-line test-example-line-odd test-example-line-1">3 4 7</div><div class="test-example-line test-example-line-odd test-example-line-1">3 4 4</div><div class="test-example-line test-example-line-odd test-example-line-1">1 4 4</div><div class="test-example-line test-example-line-odd test-example-line-1">2 2 4</div><div class="test-example-line test-example-line-even test-example-line-2">5 5 2</div><div class="test-example-line test-example-line-even test-example-line-2">500000000 300000000 100000000 900000000 700000000</div><div class="test-example-line test-example-line-even test-example-line-2">800000000 400000000 1000000000 600000000 200000000</div><div class="test-example-line test-example-line-even test-example-line-2">1 4 3</div><div class="test-example-line test-example-line-even test-example-line-2">5 2 6</div><div class="test-example-line test-example-line-odd test-example-line-3">4 4 1</div><div class="test-example-line test-example-line-odd test-example-line-3">100 100 20 20</div><div class="test-example-line test-example-line-odd test-example-line-3">100 100 20 20</div><div class="test-example-line test-example-line-odd test-example-line-3">4 4 5</div><div class="test-example-line test-example-line-even test-example-line-4">3 3 6</div><div class="test-example-line test-example-line-even test-example-line-4">2 363 711</div><div class="test-example-line test-example-line-even test-example-line-4">286 121 102</div><div class="test-example-line test-example-line-even test-example-line-4">1 1 1</div><div class="test-example-line test-example-line-even test-example-line-4">3 1 1</div><div class="test-example-line test-example-line-even test-example-line-4">1 2 0</div><div class="test-example-line test-example-line-even test-example-line-4">1 3 2</div><div class="test-example-line test-example-line-even test-example-line-4">0 1 0</div><div class="test-example-line test-example-line-even test-example-line-4">3 3 3</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0011717781366337976" id="id005854909755943359" class="input-output-copier">Copy</div></div><pre id="id0011717781366337976">0
+70
+64
+39
+57
+2700000000
+4200000000
+420
+711
+711
+0
+997
+0
+1360
+</pre></div></div></div>
