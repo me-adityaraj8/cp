@@ -1,0 +1,24 @@
+<h2><a href="https://codeforces.com/contest/2061/problem/B" target="_blank" rel="noopener noreferrer">2061B — Kevin and Geometry</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1100 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2061B](https://codeforces.com/contest/2061/problem/B) |
+
+## Topics
+`binary search` `geometry`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Kevin and Geometry</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p> </p><p>Kevin has $$$n$$$ sticks with length $$$a_1,a_2,\ldots,a_n$$$.</p><p>Kevin wants to select $$$4$$$ sticks from these to form an isosceles trapezoid$$$^{\text{∗}}$$$ with a positive area. Note that rectangles and squares are also considered isosceles trapezoids. Help Kevin find a solution. If no solution exists, output $$$-1$$$.</p><div class="statement-footnote"><p>$$$^{\text{∗}}$$$An <a href="https://en.wikipedia.org/wiki/Isosceles_trapezoid">isosceles trapezoid</a> is a convex quadrilateral with a line of symmetry bisecting one pair of opposite sides. In any isosceles trapezoid, two opposite sides (the bases) are parallel, and the two other sides (the legs) are of equal length.</p></div></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 10^4$$$). The description of the test cases follows. </p><p>The first line of each test case contains a single integer $$$n$$$ ($$$4 \le n \le 2\cdot 10^5$$$).</p><p>The second line contains $$$n$$$ integers $$$a_1, a_2, \ldots, a_n$$$ ($$$1 \le a_i \le 10^8$$$).</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases does not exceed $$$2\cdot 10^5$$$. </p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output $$$4$$$ integers — the lengths of sticks. If no solution exists, output $$$-1$$$.</p><p>If there are multiple solutions, print any of them.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005680001886629625" id="id0013486948528062737" class="input-output-copier">Copy</div></div><pre id="id005680001886629625"><div class="test-example-line test-example-line-even test-example-line-0">7</div><div class="test-example-line test-example-line-odd test-example-line-1">4</div><div class="test-example-line test-example-line-odd test-example-line-1">5 5 5 10</div><div class="test-example-line test-example-line-even test-example-line-2">4</div><div class="test-example-line test-example-line-even test-example-line-2">10 5 10 5</div><div class="test-example-line test-example-line-odd test-example-line-3">4</div><div class="test-example-line test-example-line-odd test-example-line-3">1 2 3 4</div><div class="test-example-line test-example-line-even test-example-line-4">4</div><div class="test-example-line test-example-line-even test-example-line-4">1 1 1 3</div><div class="test-example-line test-example-line-odd test-example-line-5">6</div><div class="test-example-line test-example-line-odd test-example-line-5">4 2 1 5 7 1</div><div class="test-example-line test-example-line-even test-example-line-6">6</div><div class="test-example-line test-example-line-even test-example-line-6">10 200 30 300 30 100</div><div class="test-example-line test-example-line-odd test-example-line-7">4</div><div class="test-example-line test-example-line-odd test-example-line-7">100000000 100000000 1 2</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id006284983107661598" id="id002524342913873674" class="input-output-copier">Copy</div></div><pre id="id006284983107661598">5 5 5 10
+5 5 10 10
+-1
+-1
+1 1 4 5
+-1
+100000000 100000000 1 2
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, you can form an isosceles trapezoid with bases of length $$$5$$$ and $$$10$$$, and two legs of length $$$5$$$.</p><p>In the second test case, you can form an isosceles trapezoid with two bases of length $$$5$$$ and two legs of length $$$10$$$. A rectangle is considered an isosceles trapezoid here.</p><p>In the third test case, there are no sticks with the same length. It's impossible to form an isosceles trapezoid.</p><p>In the fourth test case, it's impossible to form an isosceles trapezoid with a positive area.</p></div>
