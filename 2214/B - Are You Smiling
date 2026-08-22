@@ -1,0 +1,18 @@
+<h2><a href="https://codeforces.com/contest/2214/problem/B" target="_blank" rel="noopener noreferrer">2214B — Are You Smiling?</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | Unrated |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2214B](https://codeforces.com/contest/2214/problem/B) |
+
+## Topics
+`*special` `strings`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Are You Smiling?</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Show us a smile! 😁</p></div><div class="output-specification"><div class="section-title">Output</div><p>For a properly chosen <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-1"><span class="MJXp-mrow" id="MJXp-Span-2"><span class="MJXp-mo" id="MJXp-Span-3" style="margin-left: 0.111em; margin-right: 0.111em;">?</span></span></span></span>$\mathrm{?}$, the following equation holds: <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-4"><span class="MJXp-mrow" id="MJXp-Span-5"><span class="MJXp-mi" id="MJXp-Span-6">U</span></span><span class="MJXp-mo" id="MJXp-Span-7" style="margin-left: 0.267em; margin-right: 0.267em;">+</span><span class="MJXp-mrow" id="MJXp-Span-8"><span class="MJXp-mo" id="MJXp-Span-9" style="margin-left: 0.111em; margin-right: 0.111em;">?</span></span><span class="MJXp-mo" id="MJXp-Span-10" style="margin-left: 0.333em; margin-right: 0.333em;">=</span><span class="MJXp-mrow" id="MJXp-Span-11"><span class="MJXp-mi" id="MJXp-Span-12">H</span><span class="MJXp-mi" id="MJXp-Span-13">A</span><span class="MJXp-mi" id="MJXp-Span-14">P</span><span class="MJXp-mi" id="MJXp-Span-15">P</span><span class="MJXp-mi" id="MJXp-Span-16">Y</span></span></span></span>$\mathrm{U} + \mathrm{?} = \mathrm{HAPPY}$.</p><p>Output <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-17"><span class="MJXp-mrow" id="MJXp-Span-18"><span class="MJXp-mo" id="MJXp-Span-19" style="margin-left: 0.111em; margin-right: 0.111em;">?</span></span></span></span>$\mathrm{?}$, a string consisting of uppercase letters and numbers. </p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005404392937645802" id="id002724693922363485" class="input-output-copier">Copy</div></div><pre id="id005404392937645802">show us your smile!
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0031956022255012073" id="id000020415282803827317" class="input-output-copier">Copy</div></div><pre id="id0031956022255012073">     </pre></div></div></div>
