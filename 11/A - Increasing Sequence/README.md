@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/11/problem/A" target="_blank" rel="noopener noreferrer">11A — Increasing Sequence</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 900 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 11A](https://codeforces.com/contest/11/problem/A) |
+
+## Topics
+`constructive algorithms` `implementation` `math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Increasing Sequence</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>64 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>A sequence <span class="tex-span"><i>a</i><sub class="lower-index">0</sub>, <i>a</i><sub class="lower-index">1</sub>, ..., <i>a</i><sub class="lower-index"><i>t</i> - 1</sub></span> is called increasing if <span class="tex-span"><i>a</i><sub class="lower-index"><i>i</i> - 1</sub> < <i>a</i><sub class="lower-index"><i>i</i></sub></span> for each <span class="tex-span"><i>i</i>: 0 < <i>i</i> < <i>t</i></span>.</p><p>You are given a sequence <span class="tex-span"><i>b</i><sub class="lower-index">0</sub>, <i>b</i><sub class="lower-index">1</sub>, ..., <i>b</i><sub class="lower-index"><i>n</i> - 1</sub></span> and a positive integer <span class="tex-span"><i>d</i></span>. In each move you may choose one element of the given sequence and add <span class="tex-span"><i>d</i></span> to it. What is the least number of moves required to make the given sequence increasing?</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of the input contains two integer numbers <span class="tex-span"><i>n</i></span> and <span class="tex-span"><i>d</i></span> (<span class="tex-span">2 ≤ <i>n</i> ≤ 2000, 1 ≤ <i>d</i> ≤ 10<sup class="upper-index">6</sup></span>). The second line contains space separated sequence <span class="tex-span"><i>b</i><sub class="lower-index">0</sub>, <i>b</i><sub class="lower-index">1</sub>, ..., <i>b</i><sub class="lower-index"><i>n</i> - 1</sub></span> (<span class="tex-span">1 ≤ <i>b</i><sub class="lower-index"><i>i</i></sub> ≤ 10<sup class="upper-index">6</sup></span>).</p></div><div class="output-specification"><div class="section-title">Output</div><p>Output the minimal number of moves needed to make the sequence increasing.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id00723842194798279" id="id007237773988227542" class="input-output-copier">Copy</div></div><pre id="id00723842194798279">4 2<br>1 3 3 2<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0046453003728605746" id="id008628720616826715" class="input-output-copier">Copy</div></div><pre id="id0046453003728605746">3<br></pre></div></div></div>
