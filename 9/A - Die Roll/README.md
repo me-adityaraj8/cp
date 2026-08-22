@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/9/problem/A" target="_blank" rel="noopener noreferrer">9A — Die Roll</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 9A](https://codeforces.com/contest/9/problem/A) |
+
+## Topics
+`math` `probabilities`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Die Roll</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>64 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>Yakko, Wakko and Dot, world-famous animaniacs, decided to rest from acting in cartoons, and take a leave to travel a bit. Yakko dreamt to go to Pennsylvania, his Motherland and the Motherland of his ancestors. Wakko thought about Tasmania, its beaches, sun and sea. Dot chose Transylvania as the most mysterious and unpredictable place.</p><p>But to their great regret, the leave turned to be very short, so it will be enough to visit one of the three above named places. That's why Yakko, as the cleverest, came up with a truly genius idea: let each of the three roll an ordinary six-sided die, and the one with the highest amount of points will be the winner, and will take the other two to the place of his/her dreams.</p><p>Yakko thrown a die and got <span class="tex-font-style-tt">Y</span> points, Wakko — <span class="tex-font-style-tt">W</span> points. It was Dot's turn. But she didn't hurry. Dot wanted to know for sure what were her chances to visit Transylvania.</p><p>It is known that Yakko and Wakko are true gentlemen, that's why if they have the same amount of points with Dot, they will let Dot win.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The only line of the input file contains two natural numbers <span class="tex-font-style-tt">Y</span> and <span class="tex-font-style-tt">W</span> — the results of Yakko's and Wakko's die rolls.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Output the required probability in the form of irreducible fraction in format «<span class="tex-font-style-tt">A/B</span>», where <span class="tex-font-style-tt">A</span> — the numerator, and <span class="tex-font-style-tt">B</span> — the denominator. If the required probability equals to zero, output «<span class="tex-font-style-tt">0/1</span>». If the required probability equals to 1, output «<span class="tex-font-style-tt">1/1</span>». </p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id008168241920197371" id="id002899286713877318" class="input-output-copier">Copy</div></div><pre id="id008168241920197371">4 2<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id001775547759022087" id="id007982087246819848" class="input-output-copier">Copy</div></div><pre id="id001775547759022087">1/2<br></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>Dot will go to Transylvania, if she is lucky to roll 4, 5 or 6 points.</p></div>
