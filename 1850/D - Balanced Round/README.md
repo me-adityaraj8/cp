@@ -1,0 +1,24 @@
+<h2><a href="https://codeforces.com/contest/1850/problem/D" target="_blank" rel="noopener noreferrer">1850D — Balanced Round</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 900 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1850D](https://codeforces.com/contest/1850/problem/D) |
+
+## Topics
+`brute force` `greedy` `implementation` `sortings`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">D. Balanced Round</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are the author of a Codeforces round and have prepared $$$n$$$ problems you are going to set, problem $$$i$$$ having difficulty $$$a_i$$$. You will do the following process: </p><ul> <li> remove some (possibly zero) problems from the list; </li><li> rearrange the remaining problems in any order you wish. </li></ul><p>A round is considered <span class="tex-font-style-it">balanced</span> if and only if the absolute difference between the difficulty of any two consecutive problems is at most $$$k$$$ (less or equal than $$$k$$$).</p><p>What is the minimum number of problems you have to remove so that an arrangement of problems is balanced?</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer $$$t$$$ ($$$1 \leq t \leq 1000$$$) — the number of test cases.</p><p>The first line of each test case contains two positive integers $$$n$$$ ($$$1 \leq n \leq 2 \cdot 10^5$$$) and $$$k$$$ ($$$1 \leq k \leq 10^9$$$) — the number of problems, and the maximum allowed absolute difference between consecutive problems.</p><p>The second line of each test case contains $$$n$$$ space-separated integers $$$a_i$$$ ($$$1 \leq a_i \leq 10^9$$$) — the difficulty of each problem.</p><p>Note that the sum of $$$n$$$ over all test cases doesn't exceed $$$2 \cdot 10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output a single integer — the minimum number of problems you have to remove so that an arrangement of problems is balanced.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id008060397456523497" id="id0038981795976720335" class="input-output-copier">Copy</div></div><pre id="id008060397456523497"><div class="test-example-line test-example-line-even test-example-line-0">7</div><div class="test-example-line test-example-line-odd test-example-line-1">5 1</div><div class="test-example-line test-example-line-odd test-example-line-1">1 2 4 5 6</div><div class="test-example-line test-example-line-even test-example-line-2">1 2</div><div class="test-example-line test-example-line-even test-example-line-2">10</div><div class="test-example-line test-example-line-odd test-example-line-3">8 3</div><div class="test-example-line test-example-line-odd test-example-line-3">17 3 1 20 12 5 17 12</div><div class="test-example-line test-example-line-even test-example-line-4">4 2</div><div class="test-example-line test-example-line-even test-example-line-4">2 4 6 8</div><div class="test-example-line test-example-line-odd test-example-line-5">5 3</div><div class="test-example-line test-example-line-odd test-example-line-5">2 3 19 10 8</div><div class="test-example-line test-example-line-even test-example-line-6">3 4</div><div class="test-example-line test-example-line-even test-example-line-6">1 10 5</div><div class="test-example-line test-example-line-odd test-example-line-7">8 1</div><div class="test-example-line test-example-line-odd test-example-line-7">8 3 1 4 5 10 7 3</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00909626664643165" id="id005274378973437268" class="input-output-copier">Copy</div></div><pre id="id00909626664643165">2
+0
+5
+0
+3
+1
+4
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>For the first test case, we can remove the first $$$2$$$ problems and construct a set using problems with the difficulties $$$[4, 5, 6]$$$, with difficulties between adjacent problems equal to $$$|5 - 4| = 1 \leq 1$$$ and $$$|6 - 5| = 1 \leq 1$$$.</p><p>For the second test case, we can take the single problem and compose a round using the problem with difficulty $$$10$$$.</p></div>
