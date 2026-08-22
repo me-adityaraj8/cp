@@ -1,0 +1,24 @@
+<h2><a href="https://codeforces.com/contest/1155/problem/A" target="_blank" rel="noopener noreferrer">1155A — Reverse a Substring</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1000 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1155A](https://codeforces.com/contest/1155/problem/A) |
+
+## Topics
+`implementation` `sortings` `strings`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Reverse a Substring</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given a string $$$s$$$ consisting of $$$n$$$ lowercase Latin letters.</p><p>Let's define a substring as a contiguous subsegment of a string. For example, "<span class="tex-font-style-tt">acab</span>" is a substring of "<span class="tex-font-style-tt">abacaba</span>" (it starts in position $$$3$$$ and ends in position $$$6$$$), but "<span class="tex-font-style-tt">aa</span>" or "<span class="tex-font-style-tt">d</span>" aren't substrings of this string. So the substring of the string $$$s$$$ from position $$$l$$$ to position $$$r$$$ is $$$s[l; r] = s_l s_{l + 1} \dots s_r$$$.</p><p>You have to choose <span class="tex-font-style-bf">exactly</span> one of the substrings of the given string and reverse it (i. e. make $$$s[l; r] = s_r s_{r - 1} \dots s_l$$$) to obtain a string that is <span class="tex-font-style-bf">less</span> lexicographically. Note that it <span class="tex-font-style-bf">is not necessary</span> to obtain the minimum possible string.</p><p>If it is impossible to reverse some substring of the given string to obtain a string that is less, print "<span class="tex-font-style-tt">NO</span>". Otherwise print "<span class="tex-font-style-tt">YES</span>" and <span class="tex-font-style-bf">any</span> suitable substring.</p><p>String $$$x$$$ is lexicographically less than string $$$y$$$, if either $$$x$$$ is a prefix of $$$y$$$ (and $$$x \ne y$$$), or there exists such $$$i$$$ ($$$1 \le i \le min(|x|, |y|)$$$), that $$$x_i  \lt  y_i$$$, and for any $$$j$$$ ($$$1 \le j  \lt  i$$$) $$$x_j = y_j$$$. Here $$$|a|$$$ denotes the length of the string $$$a$$$. The lexicographic comparison of strings is implemented by operator <span class="tex-font-style-tt"><</span> in modern programming languages​​.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of the input contains one integer $$$n$$$ ($$$2 \le n \le 3 \cdot 10^5$$$) — the length of $$$s$$$.</p><p>The second line of the input contains the string $$$s$$$ of length $$$n$$$ consisting only of lowercase Latin letters.</p></div><div class="output-specification"><div class="section-title">Output</div><p>If it is impossible to reverse some substring of the given string to obtain a string which is lexicographically <span class="tex-font-style-bf">less</span>, print "<span class="tex-font-style-tt">NO</span>". Otherwise print "<span class="tex-font-style-tt">YES</span>" and two indices $$$l$$$ and $$$r$$$ ($$$1 \le l  \lt  r \le n$$$) denoting the substring you have to reverse. If there are multiple answers, you can print any.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id004754485577675669" id="id007327108839075555" class="input-output-copier">Copy</div></div><pre id="id004754485577675669">7
+abacaba
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id007093554274280428" id="id0009351924624024532" class="input-output-copier">Copy</div></div><pre id="id007093554274280428">YES
+2 5
+</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009583290468576133" id="id005056595379089531" class="input-output-copier">Copy</div></div><pre id="id009583290468576133">6
+aabcfg
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00755705012679305" id="id009018767985268709" class="input-output-copier">Copy</div></div><pre id="id00755705012679305">NO
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first testcase the resulting string is "<span class="tex-font-style-tt">aacabba</span>".</p></div>
