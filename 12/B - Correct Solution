@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/12/problem/B" target="_blank" rel="noopener noreferrer">12B — Correct Solution?</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1100 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 12B](https://codeforces.com/contest/12/problem/B) |
+
+## Topics
+`implementation` `sortings`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Correct Solution?</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>One cold winter evening Alice and her older brother Bob was sitting at home near the fireplace and giving each other interesting problems to solve. When it was Alice's turn, she told the number <span class="tex-span"><i>n</i></span> to Bob and said:</p><p>—Shuffle the digits in this number in order to obtain the smallest possible number without leading zeroes.</p><p>—No problem! — said Bob and immediately gave her an answer.</p><p>Alice said a random number, so she doesn't know whether Bob's answer is correct. Help her to find this out, because impatient brother is waiting for the verdict.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains one integer <span class="tex-span"><i>n</i></span> (<span class="tex-span">0 ≤ <i>n</i> ≤ 10<sup class="upper-index">9</sup></span>) without leading zeroes. The second lines contains one integer <span class="tex-span"><i>m</i></span> (<span class="tex-span">0 ≤ <i>m</i> ≤ 10<sup class="upper-index">9</sup></span>) — Bob's answer, possibly with leading zeroes.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print <span class="tex-font-style-tt">OK</span> if Bob's answer is correct and <span class="tex-font-style-tt">WRONG_ANSWER</span> otherwise.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id007573173206187069" id="id009849199622881789" class="input-output-copier">Copy</div></div><pre id="id007573173206187069">3310<br>1033<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id001255550491633468" id="id00666722720350069" class="input-output-copier">Copy</div></div><pre id="id001255550491633468">OK<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id006232488609559057" id="id006731445559771273" class="input-output-copier">Copy</div></div><pre id="id006232488609559057">4<br>5<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id004228628564533248" id="id00034076133971294276" class="input-output-copier">Copy</div></div><pre id="id004228628564533248">WRONG_ANSWER<br></pre></div></div></div>
