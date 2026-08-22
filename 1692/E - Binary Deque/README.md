@@ -1,0 +1,24 @@
+<h2><a href="https://codeforces.com/contest/1692/problem/E" target="_blank" rel="noopener noreferrer">1692E — Binary Deque</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1200 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1692E](https://codeforces.com/contest/1692/problem/E) |
+
+## Topics
+`binary search` `implementation` `two pointers`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">E. Binary Deque</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Slavic has an array of length $$$n$$$ consisting only of zeroes and ones. In one operation, he removes either the first or the last element of the array. </p><p>What is the minimum number of operations Slavic has to perform such that the total sum of the array is equal to $$$s$$$ after performing all the operations? In case the sum $$$s$$$ can't be obtained after any amount of operations, you should output <span class="tex-font-style-tt">-1</span>.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer $$$t$$$ ($$$1 \leq t \leq 10^4$$$) — the number of test cases.</p><p>The first line of each test case contains two integers $$$n$$$ and $$$s$$$ ($$$1 \leq n, s \leq 2 \cdot 10^5$$$) — the length of the array and the needed sum of elements.</p><p>The second line of each test case contains $$$n$$$ integers $$$a_i$$$ ($$$0 \leq a_i \leq 1$$$) — the elements of the array.</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases doesn't exceed $$$2 \cdot 10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output a single integer — the minimum amount of operations required to have the total sum of the array equal to $$$s$$$, or <span class="tex-font-style-tt">-1</span> if obtaining an array with sum $$$s$$$ isn't possible.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id008466001663644172" id="id009752488173523616" class="input-output-copier">Copy</div></div><pre id="id008466001663644172"><div class="test-example-line test-example-line-even test-example-line-0">7</div><div class="test-example-line test-example-line-odd test-example-line-1">3 1</div><div class="test-example-line test-example-line-odd test-example-line-1">1 0 0</div><div class="test-example-line test-example-line-even test-example-line-2">3 1</div><div class="test-example-line test-example-line-even test-example-line-2">1 1 0</div><div class="test-example-line test-example-line-odd test-example-line-3">9 3</div><div class="test-example-line test-example-line-odd test-example-line-3">0 1 0 1 1 1 0 0 1</div><div class="test-example-line test-example-line-even test-example-line-4">6 4</div><div class="test-example-line test-example-line-even test-example-line-4">1 1 1 1 1 1</div><div class="test-example-line test-example-line-odd test-example-line-5">5 1</div><div class="test-example-line test-example-line-odd test-example-line-5">0 0 1 1 0</div><div class="test-example-line test-example-line-even test-example-line-6">16 2</div><div class="test-example-line test-example-line-even test-example-line-6">1 1 0 0 1 0 0 1 1 0 0 0 0 0 1 1</div><div class="test-example-line test-example-line-odd test-example-line-7">6 3</div><div class="test-example-line test-example-line-odd test-example-line-7">1 0 1 0 0 0</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id001957070323151613" id="id001890458174403028" class="input-output-copier">Copy</div></div><pre id="id001957070323151613">0
+1
+3
+2
+2
+7
+-1
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, the sum of the whole array is $$$1$$$ from the beginning, so we don't have to make any operations.</p><p>In the second test case, the sum of the array is $$$2$$$ and we want it to be equal to $$$1$$$, so we should remove the first element. The array turns into $$$[1, 0]$$$, which has a sum equal to $$$1$$$.</p><p>In the third test case, the sum of the array is $$$5$$$ and we need it to be $$$3$$$. We can obtain such a sum by removing the first two elements and the last element, doing a total of three operations. The array turns into $$$[0, 1, 1, 1, 0, 0]$$$, which has a sum equal to $$$3$$$.</p></div>
