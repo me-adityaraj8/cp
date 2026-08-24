@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 353 | 31 |
+| 354 | 31 |
 
 ---
 
@@ -14,27 +14,27 @@
 
 - [*special](#special) (7)
 - [Uncategorized](#uncategorized) (19)
-- [binary search](#binary-search) (20)
+- [binary search](#binary-search) (21)
 - [bitmasks](#bitmasks) (16)
 - [brute force](#brute-force) (72)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (10)
 - [constructive algorithms](#constructive-algorithms) (78)
 - [data structures](#data-structures) (17)
-- [dfs and similar](#dfs-and-similar) (8)
+- [dfs and similar](#dfs-and-similar) (9)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (29)
+- [dp](#dp) (30)
 - [dsu](#dsu) (1)
 - [expression parsing](#expression-parsing) (1)
 - [flows](#flows) (1)
 - [games](#games) (5)
 - [geometry](#geometry) (9)
 - [graph matchings](#graph-matchings) (1)
-- [graphs](#graphs) (4)
+- [graphs](#graphs) (5)
 - [greedy](#greedy) (146)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (99)
-- [math](#math) (138)
+- [math](#math) (139)
 - [number theory](#number-theory) (38)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (3)
@@ -102,6 +102,7 @@
 | 2061B | [Kevin and Geometry](https://codeforces.com/contest/2061/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2061/B%20-%20Kevin%20and%20Geometry/solution.cpp) |
 | 2132E | [Arithmetics Competition](https://codeforces.com/contest/2132/problem/E) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2132/E%20-%20Arithmetics%20Competition/solution.cpp) |
 | 2156B | [Strange Machine](https://codeforces.com/contest/2156/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2156/B%20-%20Strange%20Machine/solution.cpp) |
+| 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
 | 2197A | [Friendly Numbers](https://codeforces.com/contest/2197/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2197/A%20-%20Friendly%20Numbers/solution.cpp) |
 | 2227D | [Palindromex](https://codeforces.com/contest/2227/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2227/D%20-%20Palindromex/solution.cpp) |
 | 2232B | [Cake Leveling](https://codeforces.com/contest/2232/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2232/B%20-%20Cake%20Leveling/solution.cpp) |
@@ -341,6 +342,7 @@
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.cpp) |
 | 1829D | [Gold Rush](https://codeforces.com/contest/1829/problem/D) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/1829/D%20-%20Gold%20Rush/solution.cpp) |
 | 2034C | [Trapped in the Witch's Labyrinth](https://codeforces.com/contest/2034/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2034/C%20-%20Trapped%20in%20the%20Witch's%20Labyrinth/solution.cpp) |
+| 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
 | 2234C | [Vessels, Heights and Two Versions (Easy Version)](https://codeforces.com/contest/2234/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2234/C%20-%20Vessels%2C%20Heights%20and%20Two%20Versions%20(Easy%20Version)/solution.cpp) |
 | 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
 
@@ -376,6 +378,7 @@
 | 2178C | [First or Second](https://codeforces.com/contest/2178/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2178/C%20-%20First%20or%20Second/solution.cpp) |
 | 2179B | [Blackslex and Showering](https://codeforces.com/contest/2179/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2179/B%20-%20Blackslex%20and%20Showering/solution.cpp) |
 | 2182C | [Production of Snowmen](https://codeforces.com/contest/2182/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2182/C%20-%20Production%20of%20Snowmen/solution.cpp) |
+| 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
 | 2202B | [ABAB Construction](https://codeforces.com/contest/2202/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2202/B%20-%20ABAB%20Construction/solution.cpp) |
 | 2208C | [Stamina and Tasks](https://codeforces.com/contest/2208/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2208/C%20-%20Stamina%20and%20Tasks/solution.cpp) |
 | 2211B | [Mickey Mouse Constructive](https://codeforces.com/contest/2211/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2211/B%20-%20Mickey%20Mouse%20Constructive/solution.cpp) |
@@ -440,6 +443,7 @@
 | 899C | [Dividing the numbers](https://codeforces.com/contest/899/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/899/C%20-%20Dividing%20the%20numbers/solution.cpp) |
 | 1428B | [Belted Rooms](https://codeforces.com/contest/1428/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/1428/B%20-%20Belted%20Rooms/solution.cpp) |
 | 2034C | [Trapped in the Witch's Labyrinth](https://codeforces.com/contest/2034/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2034/C%20-%20Trapped%20in%20the%20Witch's%20Labyrinth/solution.cpp) |
+| 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
 
 ### greedy
 
@@ -823,6 +827,7 @@
 | 2179C | [Blackslex and Number Theory](https://codeforces.com/contest/2179/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2179/C%20-%20Blackslex%20and%20Number%20Theory/solution.cpp) |
 | 2179D | [Blackslex and Penguin Civilization](https://codeforces.com/contest/2179/problem/D) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2179/D%20-%20Blackslex%20and%20Penguin%20Civilization/solution.cpp) |
 | 2184A | [Social Experiment](https://codeforces.com/contest/2184/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2184/A%20-%20Social%20Experiment/solution.cpp) |
+| 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
 | 2197A | [Friendly Numbers](https://codeforces.com/contest/2197/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2197/A%20-%20Friendly%20Numbers/solution.cpp) |
 | 2202A | [Parkour Design](https://codeforces.com/contest/2202/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2202/A%20-%20Parkour%20Design/solution.cpp) |
 | 2204C | [Spring](https://codeforces.com/contest/2204/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2204/C%20-%20Spring/solution.cpp) |
