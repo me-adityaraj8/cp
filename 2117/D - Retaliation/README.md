@@ -1,0 +1,23 @@
+<h2><a href="https://codeforces.com/contest/2117/problem/D" target="_blank" rel="noopener noreferrer">2117D — Retaliation</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1200 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2117D](https://codeforces.com/contest/2117/problem/D) |
+
+## Topics
+`binary search` `math` `number theory`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">D. Retaliation</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Yousef wants to explode an array $$$a_1, a_2, \dots, a_n$$$. An array gets exploded when all of its elements become equal to zero.</p><p>In one operation, Yousef can do <span class="tex-font-style-bf">exactly</span> one of the following: </p><ol> <li> For every index $$$i$$$ in $$$a$$$, decrease $$$a_i$$$ by $$$i$$$. </li><li> For every index $$$i$$$ in $$$a$$$, decrease $$$a_i$$$ by $$$n - i + 1$$$. </li></ol><p>Your task is to help Yousef determine if it is possible to explode the array using any number of operations.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of the input contains an integer $$$t$$$ ($$$1 \le t \le 10^4$$$) — the number of test cases.</p><p>The first line of each test case contains an integer $$$n$$$ ($$$2 \le n \le 2 \cdot 10^5$$$) — the size of the array.</p><p>The second line of each test case contains $$$n$$$ integers $$$a_1, a_2, \dots, a_n$$$ ($$$1 \le a_i \le 10^9$$$) — the elements of the array.</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases doesn't exceed $$$2 \cdot 10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print "<span class="tex-font-style-tt">YES</span>" if Yousef can explode the array, otherwise output "<span class="tex-font-style-tt">NO</span>".</p><p>You can output the answer in any case (upper or lower). For example, the strings "<span class="tex-font-style-tt">yEs</span>", "<span class="tex-font-style-tt">yes</span>", "<span class="tex-font-style-tt">Yes</span>", and "<span class="tex-font-style-tt">YES</span>" will be recognized as positive responses.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id003665491018907777" id="id006358514863365802" class="input-output-copier">Copy</div></div><pre id="id003665491018907777"><div class="test-example-line test-example-line-even test-example-line-0">6</div><div class="test-example-line test-example-line-odd test-example-line-1">4</div><div class="test-example-line test-example-line-odd test-example-line-1">3 6 6 3</div><div class="test-example-line test-example-line-even test-example-line-2">5</div><div class="test-example-line test-example-line-even test-example-line-2">21 18 15 12 9</div><div class="test-example-line test-example-line-odd test-example-line-3">10</div><div class="test-example-line test-example-line-odd test-example-line-3">2 6 10 2 5 5 1 2 4 10</div><div class="test-example-line test-example-line-even test-example-line-4">7</div><div class="test-example-line test-example-line-even test-example-line-4">10 2 16 12 8 20 4</div><div class="test-example-line test-example-line-odd test-example-line-5">2</div><div class="test-example-line test-example-line-odd test-example-line-5">52 101</div><div class="test-example-line test-example-line-even test-example-line-6">2</div><div class="test-example-line test-example-line-even test-example-line-6">10 2</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id000017269607419125865" id="id004963555362301355" class="input-output-copier">Copy</div></div><pre id="id000017269607419125865">NO
+YES
+NO
+NO
+YES
+NO
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the second test case, we can do the following: </p><ul> <li> Perform $$$1$$$ operation of the first type. The array becomes $$$[20, 16, 12, 8, 4]$$$. </li><li> Perform $$$4$$$ operations of the second type. The array becomes $$$[0, 0, 0, 0, 0]$$$. </li></ul><p>In the first, third, fourth, and sixth test cases, it can be proven that it is impossible to make all elements equal to zero using any number of operations.</p></div>
