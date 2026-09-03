@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 354 | 31 |
+| 355 | 31 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (7)
 - [Uncategorized](#uncategorized) (19)
-- [binary search](#binary-search) (21)
+- [binary search](#binary-search) (22)
 - [bitmasks](#bitmasks) (16)
 - [brute force](#brute-force) (72)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
@@ -34,8 +34,8 @@
 - [greedy](#greedy) (146)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (99)
-- [math](#math) (139)
-- [number theory](#number-theory) (38)
+- [math](#math) (140)
+- [number theory](#number-theory) (39)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (3)
 - [sortings](#sortings) (47)
@@ -100,6 +100,7 @@
 | 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.cpp) |
 | 1973B | [Cat, Fox and the Lonely Array](https://codeforces.com/contest/1973/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/1973/B%20-%20Cat%2C%20Fox%20and%20the%20Lonely%20Array/solution.cpp) |
 | 2061B | [Kevin and Geometry](https://codeforces.com/contest/2061/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2061/B%20-%20Kevin%20and%20Geometry/solution.cpp) |
+| 2117D | [Retaliation](https://codeforces.com/contest/2117/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2117/D%20-%20Retaliation/solution.cpp) |
 | 2132E | [Arithmetics Competition](https://codeforces.com/contest/2132/problem/E) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2132/E%20-%20Arithmetics%20Competition/solution.cpp) |
 | 2156B | [Strange Machine](https://codeforces.com/contest/2156/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2156/B%20-%20Strange%20Machine/solution.cpp) |
 | 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
@@ -805,6 +806,7 @@
 | 2056A | [Shape Perimeter](https://codeforces.com/contest/2056/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2056/A%20-%20Shape%20Perimeter/solution.cpp) |
 | 2084B | [MIN = GCD](https://codeforces.com/contest/2084/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2084/B%20-%20MIN%20%3D%20GCD/solution.cpp) |
 | 2092C | [Asuna and the Mosquitoes](https://codeforces.com/contest/2092/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2092/C%20-%20Asuna%20and%20the%20Mosquitoes/solution.cpp) |
+| 2117D | [Retaliation](https://codeforces.com/contest/2117/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2117/D%20-%20Retaliation/solution.cpp) |
 | 2125B | [Left and Down](https://codeforces.com/contest/2125/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2125/B%20-%20Left%20and%20Down/solution.cpp) |
 | 2127A | [Mix Mex Max](https://codeforces.com/contest/2127/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2127/A%20-%20Mix%20Mex%20Max/solution.cpp) |
 | 2131A | [Lever](https://codeforces.com/contest/2131/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2131/A%20-%20Lever/solution.cpp) |
@@ -882,6 +884,7 @@
 | 1909B | [Make Almost Equal With Mod](https://codeforces.com/contest/1909/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/1909/B%20-%20Make%20Almost%20Equal%20With%20Mod/solution.cpp) |
 | 2007C | [Dora and C++](https://codeforces.com/contest/2007/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2007/C%20-%20Dora%20and%20C%2B%2B/solution.cpp) |
 | 2084B | [MIN = GCD](https://codeforces.com/contest/2084/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2084/B%20-%20MIN%20%3D%20GCD/solution.cpp) |
+| 2117D | [Retaliation](https://codeforces.com/contest/2117/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2117/D%20-%20Retaliation/solution.cpp) |
 | 2125B | [Left and Down](https://codeforces.com/contest/2125/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2125/B%20-%20Left%20and%20Down/solution.cpp) |
 | 2140B | [Another Divisibility Problem](https://codeforces.com/contest/2140/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2140/B%20-%20Another%20Divisibility%20Problem/solution.cpp) |
 | 2164B | [Even Modulo Pair](https://codeforces.com/contest/2164/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2164/B%20-%20Even%20Modulo%20Pair/solution.cpp) |
