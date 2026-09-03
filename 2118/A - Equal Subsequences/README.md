@@ -1,0 +1,21 @@
+<h2><a href="https://codeforces.com/contest/2118/problem/A" target="_blank" rel="noopener noreferrer">2118A — Equal Subsequences</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2118A](https://codeforces.com/contest/2118/problem/A) |
+
+## Topics
+`constructive algorithms` `greedy`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Equal Subsequences</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>We call a bitstring$$$^{\text{∗}}$$$ perfect if it has the same number of $$$\mathtt{101}$$$ and $$$\mathtt{010}$$$ subsequences$$$^{\text{†}}$$$. Construct a perfect bitstring of length $$$n$$$ where the number of $$$\mathtt{1}$$$ characters it contains is exactly $$$k$$$.</p><p>It can be proven that the construction is always possible. If there are multiple solutions, output any of them.</p><div class="statement-footnote"><p>$$$^{\text{∗}}$$$A bitstring is a string consisting only of the characters $$$\mathtt{0}$$$ and $$$\mathtt{1}$$$.</p><p>$$$^{\text{†}}$$$A sequence $$$a$$$ is a subsequence of a string $$$b$$$ if $$$a$$$ can be obtained from $$$b$$$ by the deletion of several (possibly zero or all) characters.</p></div></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 500$$$). The description of the test cases follows. </p><p>The first line of each test case contains two integers $$$n$$$ and $$$k$$$ ($$$1 \le n \le 100$$$, $$$0 \le k \le n$$$) — the size of the bitstring and the number of $$$\mathtt{1}$$$ characters in the bitstring.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output the constructed bitstring. If there are multiple solutions, output any of them.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0009013846136203874" id="id008391528223395167" class="input-output-copier">Copy</div></div><pre id="id0009013846136203874"><div class="test-example-line test-example-line-even test-example-line-0">5</div><div class="test-example-line test-example-line-odd test-example-line-1">4 2</div><div class="test-example-line test-example-line-even test-example-line-2">5 3</div><div class="test-example-line test-example-line-odd test-example-line-3">5 5</div><div class="test-example-line test-example-line-even test-example-line-4">6 2</div><div class="test-example-line test-example-line-odd test-example-line-5">1 1</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00467116037569143" id="id004727252369891978" class="input-output-copier">Copy</div></div><pre id="id00467116037569143">1010
+10110
+11111
+100010
+1</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, the number of $$$\mathtt{101}$$$ and $$$\mathtt{010}$$$ subsequences is the same, both being $$$1$$$, and the sequence contains exactly two $$$\mathtt{1}$$$ characters.</p><p>In the second test case, the number of $$$\mathtt{101}$$$ and $$$\mathtt{010}$$$ subsequences is the same, both being $$$2$$$, and the sequence contains exactly three $$$\mathtt{1}$$$ characters.</p><p>In the third test case, the number of $$$\mathtt{101}$$$ and $$$\mathtt{010}$$$ subsequences is the same, both being $$$0$$$, and the sequence contains exactly five $$$\mathtt{1}$$$ characters.</p></div>
