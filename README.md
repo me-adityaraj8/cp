@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 356 | 31 |
+| 357 | 31 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (10)
 - [constructive algorithms](#constructive-algorithms) (79)
-- [data structures](#data-structures) (17)
+- [data structures](#data-structures) (18)
 - [dfs and similar](#dfs-and-similar) (9)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (30)
@@ -39,7 +39,7 @@
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (3)
 - [sortings](#sortings) (47)
-- [strings](#strings) (28)
+- [strings](#strings) (29)
 - [ternary search](#ternary-search) (1)
 - [trees](#trees) (2)
 - [two pointers](#two-pointers) (19)
@@ -326,6 +326,7 @@
 | 1793C | [Dora and Search](https://codeforces.com/contest/1793/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/1793/C%20-%20Dora%20and%20Search/solution.cpp) |
 | 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
 | 1973B | [Cat, Fox and the Lonely Array](https://codeforces.com/contest/1973/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/1973/B%20-%20Cat%2C%20Fox%20and%20the%20Lonely%20Array/solution.cpp) |
+| 2000C | [Numeric String Template](https://codeforces.com/contest/2000/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2000/C%20-%20Numeric%20String%20Template/solution.cpp) |
 | 2034B | [Rakhsh's Revival](https://codeforces.com/contest/2034/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2034/B%20-%20Rakhsh's%20Revival/solution.cpp) |
 | 2084C | [You Soared Afar With Grace](https://codeforces.com/contest/2084/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2084/C%20-%20You%20Soared%20Afar%20With%20Grace/solution.cpp) |
 | 2132E | [Arithmetics Competition](https://codeforces.com/contest/2132/problem/E) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2132/E%20-%20Arithmetics%20Competition/solution.cpp) |
@@ -985,6 +986,7 @@
 | 1860A | [Not a Substring](https://codeforces.com/contest/1860/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/1860/A%20-%20Not%20a%20Substring/solution.cpp) |
 | 1883B | [Chemistry](https://codeforces.com/contest/1883/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/1883/B%20-%20Chemistry/solution.cpp) |
 | 1913B | [Swap and Delete](https://codeforces.com/contest/1913/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/1913/B%20-%20Swap%20and%20Delete/solution.cpp) |
+| 2000C | [Numeric String Template](https://codeforces.com/contest/2000/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2000/C%20-%20Numeric%20String%20Template/solution.cpp) |
 | 2047B | [Replace Character](https://codeforces.com/contest/2047/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2047/B%20-%20Replace%20Character/solution.cpp) |
 | 2125A | [Difficult Contest](https://codeforces.com/contest/2125/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2125/A%20-%20Difficult%20Contest/solution.cpp) |
 | 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2132/A%20-%20Homework/solution.cpp) |
