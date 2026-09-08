@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 359 | 31 |
+| 360 | 31 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (7)
-- [Uncategorized](#uncategorized) (19)
+- [Uncategorized](#uncategorized) (20)
 - [binary search](#binary-search) (22)
 - [bitmasks](#bitmasks) (16)
 - [brute force](#brute-force) (73)
@@ -72,6 +72,7 @@
 | 2220C | [Grid L](https://codeforces.com/contest/2220/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2220/C%20-%20Grid%20L/solution.cpp) |
 | 2240D | [Decidophobia](https://codeforces.com/contest/2240/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2240/D%20-%20Decidophobia/solution.cpp) |
 | 2250C | [Rank Subsequence](https://codeforces.com/contest/2250/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2250/C%20-%20Rank%20Subsequence/solution.cpp) |
+| 2260B | [Monocarp and Projects](https://codeforces.com/contest/2260/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2260/B%20-%20Monocarp%20and%20Projects/solution.cpp) |
 | 102961A | [Distinct Numbers](https://codeforces.com/contest/102961/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/102961/A%20-%20Distinct%20Numbers/solution.cpp) |
 | 102961B | [Apartments](https://codeforces.com/contest/102961/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/102961/B%20-%20Apartments/solution.cpp) |
 | 102961C | [Ferris Wheel](https://codeforces.com/contest/102961/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/102961/C%20-%20Ferris%20Wheel/solution.cpp) |
