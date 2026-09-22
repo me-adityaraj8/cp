@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 368 | 31 |
+| 369 | 31 |
 
 ---
 
@@ -34,7 +34,7 @@
 - [greedy](#greedy) (154)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (100)
-- [math](#math) (146)
+- [math](#math) (147)
 - [number theory](#number-theory) (41)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (3)
@@ -858,6 +858,7 @@
 | 2184A | [Social Experiment](https://codeforces.com/contest/2184/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2184/A%20-%20Social%20Experiment/solution.cpp) |
 | 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
 | 2192C | [All-in-one Gun](https://codeforces.com/contest/2192/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2192/C%20-%20All-in-one%20Gun/solution.cpp) |
+| 2195D | [Absolute Cinema](https://codeforces.com/contest/2195/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2195/D%20-%20Absolute%20Cinema/solution.cpp) |
 | 2197A | [Friendly Numbers](https://codeforces.com/contest/2197/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2197/A%20-%20Friendly%20Numbers/solution.cpp) |
 | 2202A | [Parkour Design](https://codeforces.com/contest/2202/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2202/A%20-%20Parkour%20Design/solution.cpp) |
 | 2204C | [Spring](https://codeforces.com/contest/2204/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2204/C%20-%20Spring/solution.cpp) |
