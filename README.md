@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 367 | 31 |
+| 368 | 31 |
 
 ---
 
@@ -31,7 +31,7 @@
 - [geometry](#geometry) (9)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (5)
-- [greedy](#greedy) (153)
+- [greedy](#greedy) (154)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (100)
 - [math](#math) (146)
@@ -620,6 +620,7 @@
 | 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.cpp) |
 | 2245A | [Who Watches the Watchpig?](https://codeforces.com/contest/2245/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2245/A%20-%20Who%20Watches%20the%20Watchpig%3F/solution.cpp) |
 | 2253A | [The Best Card](https://codeforces.com/contest/2253/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2253/A%20-%20The%20Best%20Card/solution.cpp) |
+| 2266A | [Good Contest](https://codeforces.com/contest/2266/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2266/A%20-%20Good%20Contest/solution.cpp) |
 
 ### hashing
 
