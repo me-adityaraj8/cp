@@ -6,20 +6,20 @@
 
 | Total Problems | Topics |
 |---|---|
-| 369 | 31 |
+| 372 | 31 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (7)
-- [Uncategorized](#uncategorized) (21)
+- [Uncategorized](#uncategorized) (22)
 - [binary search](#binary-search) (24)
 - [bitmasks](#bitmasks) (16)
 - [brute force](#brute-force) (74)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (10)
-- [constructive algorithms](#constructive-algorithms) (83)
+- [constructive algorithms](#constructive-algorithms) (85)
 - [data structures](#data-structures) (19)
 - [dfs and similar](#dfs-and-similar) (10)
 - [divide and conquer](#divide-and-conquer) (1)
@@ -74,6 +74,7 @@
 | 2250C | [Rank Subsequence](https://codeforces.com/contest/2250/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2250/C%20-%20Rank%20Subsequence/solution.cpp) |
 | 2260B | [Monocarp and Projects](https://codeforces.com/contest/2260/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2260/B%20-%20Monocarp%20and%20Projects/solution.cpp) |
 | 2260C | [Maximize XOR, Minimize Operations](https://codeforces.com/contest/2260/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2260/C%20-%20Maximize%20XOR%2C%20Minimize%20Operations/solution.cpp) |
+| 2269C | [K Is Important](https://codeforces.com/contest/2269/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2269/C%20-%20K%20Is%20Important/solution.cpp) |
 | 102961A | [Distinct Numbers](https://codeforces.com/contest/102961/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/102961/A%20-%20Distinct%20Numbers/solution.cpp) |
 | 102961B | [Apartments](https://codeforces.com/contest/102961/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/102961/B%20-%20Apartments/solution.cpp) |
 | 102961C | [Ferris Wheel](https://codeforces.com/contest/102961/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/102961/C%20-%20Ferris%20Wheel/solution.cpp) |
@@ -291,6 +292,7 @@
 | 2125A | [Difficult Contest](https://codeforces.com/contest/2125/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2125/A%20-%20Difficult%20Contest/solution.cpp) |
 | 2127A | [Mix Mex Max](https://codeforces.com/contest/2127/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2127/A%20-%20Mix%20Mex%20Max/solution.cpp) |
 | 2128B | [Deque Process](https://codeforces.com/contest/2128/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2128/B%20-%20Deque%20Process/solution.cpp) |
+| 2130B | [Pathless](https://codeforces.com/contest/2130/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2130/B%20-%20Pathless/solution.cpp) |
 | 2131B | [Alternating Series](https://codeforces.com/contest/2131/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2131/B%20-%20Alternating%20Series/solution.cpp) |
 | 2136B | [Like the Bitset](https://codeforces.com/contest/2136/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2136/B%20-%20Like%20the%20Bitset/solution.cpp) |
 | 2140B | [Another Divisibility Problem](https://codeforces.com/contest/2140/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/me-adityaraj8/cp/blob/HEAD/2140/B%20-%20Another%20Divisibility%20Problem/solution.cpp) |
@@ -321,6 +323,7 @@
 | 2247B | [Yet Another Constructive](https://codeforces.com/contest/2247/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2247/B%20-%20Yet%20Another%20Constructive/solution.cpp) |
 | 2250B | [String Construction](https://codeforces.com/contest/2250/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2250/B%20-%20String%20Construction/solution.cpp) |
 | 2254D | [Silhouette](https://codeforces.com/contest/2254/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2254/D%20-%20Silhouette/solution.cpp) |
+| 2263B | [Min Matrices](https://codeforces.com/contest/2263/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/me-adityaraj8/cp/blob/HEAD/2263/B%20-%20Min%20Matrices/solution.cpp) |
 
 ### data structures
 
